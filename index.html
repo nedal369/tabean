@@ -18,7 +18,8 @@
             margin-top: -10px;
         }
         .center-img img{
-            width: 450px;
+            width: 80%;
+            max-width: 450px;
             height: auto;
         }
         .warning {
@@ -30,8 +31,9 @@
             background-color: #ff0000;
             padding: 20px;
             border-radius: 10px;
-            width: 20%;
-            height: 10%;
+            width: 80%;
+            max-width: 400px;
+            height: auto;
             direction: rtl;
             animation: warning-animation 3s ease-in-out infinite;
             font-size: 2.8em;
@@ -58,16 +60,25 @@
             opacity: 1;
           }
         }
+        @media (max-width: 600px) {
+            .warning {
+                font-size: 1.8em;
+            }
+            .verify-button {
+                font-size: 1em;
+            }
+        }
     </style>
-    <title>لا تثق بجميع الروابط</title>
-</head>
-<body>
-    <div class="center-img">
-        <img src="https://i.imgur.com/kkTpFHl.png" alt="logo">
-    </div>
-    <div class="warning">
-        لا تثق بجميع الروابط
-      </div>
-      <a href="https://www.tabean.site" class="verify-button">تبين من صحة الروابط</a>
-  </body>
-  </html>
+    <title>لا تثق بجميع الرو
+      <title>لا تثق بجميع الروابط</title>
+    </head>
+    <body>
+        <div class="center-img">
+            <img src="https://i.imgur.com/kkTpFHl.png" alt="logo">
+        </div>
+        <div class="warning">
+            لا تثق بجميع الروابط
+        </div>
+        <a href="https://www.tabean.site" class="verify-button">تبين من صحة الروابط</a>
+    </body>
+    </html>
